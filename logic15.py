@@ -9,7 +9,6 @@ def main(a):
     x1=a%10
     a=a//10
     x2=a%10
-    a=a//10
     x3=a//10
     return (x1+x2+x3)%2==1
 print(main(223))
