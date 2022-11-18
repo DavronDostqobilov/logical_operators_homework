@@ -11,5 +11,5 @@ def main(a):
     x2=a%10
     a=a//10
     x3=a//10
-    return (x1+x2+x3)%2!=0
-print(main(123))
+    return (x1+x2+x3)%2==1
+print(main(223))
