@@ -7,6 +7,6 @@ def main(x):
         x(int): parameter x
     Returns:
         bool: answer
-    """  
+    """
     return  ( x%10==x//1000 and x//10%10==x//100%10 ) or x%10==x//10 or x%10==x//100
-print(main(121))
+print(main(1111))
