@@ -8,5 +8,5 @@ def main(x):
     Returns:
         bool: answer
     """
-    return   x%10==x//10 or x%10==(x//10)%10
+    return x%10==x//10 or x%10==(x//10)%10
 print(main(10))
